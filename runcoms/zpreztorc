@@ -35,7 +35,8 @@ zstyle ':prezto:load' pmodule \
   'prompt' \
   'osx' \
   'ruby' \
-  'rails'
+  'rails' \
+  'git'
 
 #
 # Editor
