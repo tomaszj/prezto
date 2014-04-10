@@ -33,10 +33,10 @@ zstyle ':prezto:load' pmodule \
   'utility' \
   'completion' \
   'prompt' \
+  'git'
   # 'osx' \
   # 'ruby' \
   # 'rails' \
-  'git'
 
 #
 # Editor
