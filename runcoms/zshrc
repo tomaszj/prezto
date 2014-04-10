@@ -10,6 +10,14 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
+# Source Start-up .zsh scripts
+DOTFILES_SCRIPTS_PATH="$HOME/.zsh.dotfiles_scripts"
+if [[ -d "$DOTFILES_SCRIPTS_PATH" ]]; then
+  for config_file ($DOTFILES_SCRIPTS_PATH/*.zsh); do
+    source $config_file
+  done
+fi
+
 # Source User .zsh scripts
 USER_SCRIPTS_PATH="$HOME/.zsh.scripts"
 if [[ -d "$USER_SCRIPTS_PATH" ]]; then
