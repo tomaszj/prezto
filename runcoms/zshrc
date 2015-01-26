@@ -25,3 +25,4 @@ if [[ -d "$USER_SCRIPTS_PATH" ]]; then
     source $config_file
   done
 fi
+
