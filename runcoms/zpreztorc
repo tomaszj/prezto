@@ -36,7 +36,8 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'syntax-highlighting' \
   'node' \
-  'prompt'
+  'prompt' \
+  'python'
   # 'osx' \
   # 'ruby' \
   # 'rails' \
