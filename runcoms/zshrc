@@ -19,7 +19,7 @@ if [[ -d "$DOTFILES_SCRIPTS_PATH" ]]; then
 fi
 
 # Source User .zsh scripts
-USER_SCRIPTS_PATH="$HOME/.zsh.scripts"
+USER_SCRIPTS_PATH="$HOME/.zsh.custom_scripts"
 if [[ -d "$USER_SCRIPTS_PATH" ]]; then
   for config_file ($USER_SCRIPTS_PATH/*.zsh); do
     source $config_file
